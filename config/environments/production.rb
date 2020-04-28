@@ -86,7 +86,7 @@ Rails.application.configure do
 
 
 
-  config.action_mailer.default_url_options = {host: 'http://beseguro.com' }
+  config.action_mailer.default_url_options = {host: 'https://beapiseguro.herokuapp.com/' }
   config.action_mailer.delivery_method = :smtp
 
   ActionMailer::Base.smtp_settings = {
